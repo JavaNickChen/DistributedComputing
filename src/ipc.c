@@ -17,7 +17,7 @@ int main(){
      * 1. Child process writes to the event.log file and terminal using 'log_started_fmt'.
      * 2. Child process sends the STARTED-type message.
      *      System call: pipe(), write().
-     *      Pay attention to the format of message. Each message consists of a header and body, seeing struct 'message' in ipc.h file.
+     *      Pay attention to the format of message. Each message consists of a header and body, seeing struct 'Message' in ipc.h file.
      * 3. Child process wait for other child processes' STARTED messages.
      *      System call: read()
      *      If receive STARTED-type message from all other child processes,
