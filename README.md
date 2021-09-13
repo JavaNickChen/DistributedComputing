@@ -1,2 +1,2 @@
-# DistributedComputing
-Child Processes Communication
+# /DistributedComputing/InterprocessCommunication
+Implement interprocess communication through messaging.
